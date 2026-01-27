@@ -1,0 +1,6 @@
+langchain
+huggingface_hub
+promptlayer
+sentence-transformers
+pytest
+python-dotenv
