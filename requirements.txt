@@ -1,6 +1,24 @@
-langchain
-huggingface_hub
-promptlayer
-sentence-transformers
-pytest
-python-dotenv
+# Core LLM Execution
+transformers>=4.36.0
+torch>=2.0.0
+huggingface_hub>=0.20.0
+
+# LangChain (Test Agent Layer)
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# Embedding & Semantic Evaluation
+sentence-transformers>=2.2.2
+
+# Observability
+promptlayer>=1.0.0
+
+# Configuration
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.0.0
+
+# Optional but recommended
+tqdm>=4.66.0

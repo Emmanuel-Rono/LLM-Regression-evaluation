@@ -1,0 +1,8 @@
+models:
+  - id: mistralai/Mistral-7B-Instruct-v0.2
+    alias: baseline
+    role: baseline
+
+  - id: mistralai/Mistral-7B-Instruct-v0.2
+    alias: candidate_v2
+    role: candidate
