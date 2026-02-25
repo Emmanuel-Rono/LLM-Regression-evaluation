@@ -1,11 +1,3 @@
-"""
-evaluation_metric.py
-
-Pure evaluation functions used by Oracle Agents.
-No thresholds.
-No pass/fail decisions.
-Stateless and reusable.
-"""
 
 from typing import List
 from sentence_transformers import SentenceTransformer
